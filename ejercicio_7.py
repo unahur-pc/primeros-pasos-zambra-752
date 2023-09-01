@@ -1,7 +1,7 @@
 cantidad=float(input("Ingerese la cantidad a invertir: $"))
 interes=float(input("Ingrese el interes anual: "))
-años=int(input("Ingrese la cantidad de años: "))
+tiempo=int(input("Ingrese la cantidad de años: "))
 ganancia=(cantidad/100)*interes
-gananciatotal=ganancia*años
+gananciatotal=ganancia*tiempo
 
 print("El capital obtenido es de: $",gananciatotal)
