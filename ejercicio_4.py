@@ -1,4 +1,7 @@
 print("Ingrese los valores para hallar el perimetro y el area de un rectangulo")
+#el nombre de la variable no representativo si estas leyendo base porque lo asignas a perimetro
+#creo que eso te puede confundir luego al hacer el calculo
+#luego las formulas estan bien utilizadas
 perimetro=int(input("Ingrese el valor de la base: "))
 area=int(input("Ingrese el valor de la altura: "))
 peri=perimetro*2 + area*2
