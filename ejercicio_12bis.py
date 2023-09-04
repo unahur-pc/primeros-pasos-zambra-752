@@ -1,6 +1,6 @@
-num1=int(input("Ingrese un numero: "))
-num2=int(input("Ingrese otro numero: "))
-num3=int(input("Ingrese el tercer numero: "))
+num1=int(input("Ingrese el prirmer número: "))
+num2=int(input("Ingrese el segundo número: "))
+num3=int(input("Ingrese el tercer número: "))
 
 if num1>num2 and num3:
     print("El mayor numero es ",num1)
